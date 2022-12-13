@@ -1,13 +1,13 @@
 import random 
-print ("Welcome to the game Hangman")
-print("""\
-  _    _                                         
+HANGMAN_ASCII_ART = ("""
+  _    _                                    
  | |  | |                                        
  | |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __  
  |  __  |/ _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
  | |  | | (_| | | | | (_| | | | | | | (_| | | | |
  |_|  |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
                       __/ |                      
-                     |___/ \
+                     |___/ 
 """)
-print(random.randint(5,10))
+MAX_TRIES = 6
+print ("Welcome to the game Hangman",HANGMAN_ASCII_ART,MAX_TRIES)
